@@ -12,8 +12,9 @@ require 'data/aulas.php';
             <p class="hero-subtitulo">Ballet &amp; Jazz &mdash; Campo Mourao, PR</p>
             <h1 class="hero-titulo">Prof. Helo</h1>
             <p class="hero-texto">
-                Heloisa Pericaro &mdash; professora apaixonada pela danca,
-                formando bailarinas e trazendo leveza, tecnica e arte para cada aula.
+                Heloísa Periçaro &mdash; Bailarina Profissional e Professora apaixonada na dança com propósito.
+                Uma ferramenta de desenvolvimento motor, cognitivo e emocional, respeitando o tempo, individualidade e a forma única de cada um de existir e se expressar.
+                a individualidade e a forma única de cada um de existir e se expressar.
             </p>
             <div class="d-flex flex-wrap gap-3 mt-4">
                 <a href="aulas.php" class="btn-rosa">Conheca as Aulas</a>
