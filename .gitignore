@@ -1,0 +1,8 @@
+.env
+*.log
+.DS_Store
+Thumbs.db
+
+# Pasta de imagens originais (versoes com nomes limpos estao em assets/img/)
+images/
+context.md
