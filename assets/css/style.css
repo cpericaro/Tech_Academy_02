@@ -1,0 +1,400 @@
+:root {
+    --rosa:        #e87fa0;
+    --rosa-claro:  #fce8f0;
+    --rosa-medio:  #f5c2d4;
+    --rosa-escuro: #c45e80;
+    --verde-sage:  #7a9e7e;
+    --escuro:      #2d2d2d;
+    --cinza:       #6c757d;
+    --branco:      #ffffff;
+}
+
+/* Base */
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--escuro);
+    background-color: var(--branco);
+    padding-top: 72px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Navbar */
+#navbar-principal {
+    background-color: rgba(255, 255, 255, 0.97);
+    border-bottom: 1px solid var(--rosa-claro);
+    box-shadow: 0 1px 12px rgba(232, 127, 160, 0.08);
+}
+
+.nav-link {
+    color: var(--escuro) !important;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    padding: 0.4rem 0.75rem;
+    border-radius: 6px;
+    transition: color 0.2s, background 0.2s;
+}
+
+.nav-link:hover,
+.nav-link.ativo {
+    color: var(--rosa) !important;
+    background-color: var(--rosa-claro);
+}
+
+/* Botoes */
+.btn-rosa {
+    background-color: var(--rosa);
+    color: var(--branco);
+    border: none;
+    padding: 10px 28px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn-rosa:hover {
+    background-color: var(--rosa-escuro);
+    color: var(--branco);
+    transform: translateY(-1px);
+}
+
+.btn-rosa-sm {
+    background-color: var(--rosa);
+    color: var(--branco);
+    border: none;
+    padding: 7px 20px;
+    border-radius: 30px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s;
+}
+
+.btn-rosa-sm:hover {
+    background-color: var(--rosa-escuro);
+    color: var(--branco);
+}
+
+.btn-outline-rosa {
+    border: 2px solid var(--rosa);
+    color: var(--rosa);
+    padding: 9px 26px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    background: transparent;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-outline-rosa:hover {
+    background-color: var(--rosa);
+    color: var(--branco);
+}
+
+.btn-outline-branco {
+    border: 2px solid rgba(255, 255, 255, 0.85);
+    color: var(--branco);
+    padding: 10px 28px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    background: transparent;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s;
+}
+
+.btn-outline-branco:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: var(--branco);
+}
+
+/* Hero */
+.hero {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center top;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        105deg,
+        rgba(30, 20, 25, 0.72) 0%,
+        rgba(30, 20, 25, 0.35) 60%,
+        rgba(30, 20, 25, 0.10) 100%
+    );
+}
+
+.hero-conteudo {
+    position: relative;
+    z-index: 2;
+    color: var(--branco);
+}
+
+.hero-subtitulo {
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--rosa-medio);
+    margin-bottom: 0.5rem;
+}
+
+.hero-titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(3rem, 6vw, 5rem);
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+.hero-texto {
+    font-size: 1.05rem;
+    opacity: 0.88;
+    max-width: 480px;
+}
+
+/* Titulos de secao */
+.titulo-secao {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    color: var(--escuro);
+    margin-bottom: 0.5rem;
+}
+
+.divisor-secao {
+    width: 52px;
+    height: 3px;
+    background-color: var(--rosa);
+    border-radius: 2px;
+    margin: 0 auto 2rem auto;
+}
+
+.texto-categoria {
+    font-size: 0.78rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--cinza);
+    margin-bottom: 0.3rem;
+}
+
+/* Cards de aula */
+.card-aula {
+    background: var(--branco);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(232, 127, 160, 0.12);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-aula:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 32px rgba(232, 127, 160, 0.22);
+}
+
+.card-aula img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.card-aula-corpo {
+    padding: 1.2rem 1.4rem 1.5rem;
+}
+
+.badge-faixa {
+    display: inline-block;
+    background-color: var(--rosa-claro);
+    color: var(--rosa-escuro);
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 20px;
+    letter-spacing: 0.04em;
+}
+
+.link-saiba {
+    color: var(--rosa);
+    font-size: 0.87rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.link-saiba:hover {
+    color: var(--rosa-escuro);
+}
+
+/* Parceiro */
+.caixa-parceiro {
+    background: linear-gradient(135deg, var(--rosa-claro) 0%, var(--branco) 100%);
+    border-radius: 20px;
+    padding: 2.5rem;
+    border: 1px solid var(--rosa-medio);
+}
+
+.cupom {
+    display: inline-block;
+    background-color: var(--rosa);
+    color: var(--branco);
+    font-family: monospace;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    padding: 8px 28px;
+    border-radius: 10px;
+}
+
+/* CTA section */
+.secao-cta {
+    background: linear-gradient(135deg, var(--rosa-escuro) 0%, var(--rosa) 100%);
+}
+
+/* Galeria */
+.foto-galeria {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.foto-galeria:hover {
+    transform: scale(1.04);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+/* Abas da galeria */
+#abas-galeria .nav-link {
+    background-color: var(--branco);
+    border: 2px solid var(--rosa-claro);
+    color: var(--escuro) !important;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+#abas-galeria .nav-link.active {
+    background-color: var(--rosa) !important;
+    border-color: var(--rosa) !important;
+    color: var(--branco) !important;
+}
+
+/* Curiosidades */
+.card-curiosidade {
+    border-left: 4px solid var(--rosa);
+    background-color: var(--rosa-claro);
+    border-radius: 0 14px 14px 0;
+    padding: 1.4rem 1.6rem;
+    height: 100%;
+    transition: transform 0.2s;
+}
+
+.card-curiosidade:hover {
+    transform: translateX(4px);
+}
+
+.numero-curiosidade {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--rosa-medio);
+    line-height: 1;
+}
+
+/* Contato */
+.card-contato {
+    background-color: var(--rosa-claro);
+    border-radius: 18px;
+    padding: 2.2rem 1.5rem;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid var(--rosa-medio);
+}
+
+.card-contato:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 28px rgba(232, 127, 160, 0.2);
+}
+
+.card-contato i {
+    font-size: 2.5rem;
+    color: var(--rosa);
+    margin-bottom: 0.8rem;
+    display: block;
+}
+
+/* Sobre */
+.img-sobre {
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px var(--rosa-medio);
+}
+
+.item-detalhe {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.7rem;
+}
+
+.item-detalhe i {
+    font-size: 1.3rem;
+    color: var(--rosa);
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.item-detalhe strong {
+    display: block;
+    font-size: 0.9rem;
+}
+
+.item-detalhe span {
+    font-size: 0.82rem;
+    color: var(--cinza);
+}
+
+/* Navbar scrolled */
+.navbar-scrolled {
+    box-shadow: 0 4px 20px rgba(232, 127, 160, 0.15);
+}
+
+/* Footer */
+.footer {
+    background-color: #fdf0f5;
+    border-top: 1px solid var(--rosa-medio);
+}
+
+.icone-social {
+    color: var(--rosa);
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.2s, transform 0.2s;
+    display: inline-block;
+}
+
+.icone-social:hover {
+    color: var(--rosa-escuro);
+    transform: translateY(-2px);
+}
+
+.link-rodape {
+    color: var(--cinza);
+    font-size: 0.82rem;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.link-rodape:hover {
+    color: var(--rosa);
+}
