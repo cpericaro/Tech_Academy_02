@@ -6,3 +6,6 @@ Thumbs.db
 # Pasta de imagens originais (versoes com nomes limpos estao em assets/img/)
 images/
 context.md
+
+# Configuracoes locais do editor
+.claude/
