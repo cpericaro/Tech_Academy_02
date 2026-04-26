@@ -73,7 +73,6 @@ $fotos_espe = glob('assets/img/espetaculos/*.jpeg');
     </div>
 </section>
 
-<!-- Modal para abrir foto em tamanho maior -->
 <div class="modal fade" id="modal-foto" tabindex="-1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-dark border-0">

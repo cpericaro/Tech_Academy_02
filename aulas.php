@@ -45,7 +45,6 @@ require 'data/aulas.php';
     </div>
 </section>
 
-<!-- CTA inferior -->
 <section class="py-5 secao-cta text-white text-center">
     <div class="container">
         <h3 class="mb-3">Ainda tem duvidas?</h3>

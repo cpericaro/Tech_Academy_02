@@ -3,7 +3,6 @@ $titulo = 'Quem Sou | Prof. Helo';
 require 'includes/header.php';
 ?>
 
-<!-- Sobre -->
 <section class="py-5 mt-5 pt-5">
     <div class="container">
         <div class="row align-items-center g-5">
@@ -66,7 +65,6 @@ require 'includes/header.php';
     </div>
 </section>
 
-<!-- Foto adicional -->
 <section class="py-5" style="background-color: var(--rosa-claro);">
     <div class="container">
         <div class="row g-3 justify-content-center">
@@ -86,7 +84,6 @@ require 'includes/header.php';
     </div>
 </section>
 
-<!-- Marcas parceiras -->
 <section class="py-5 bg-white">
     <div class="container text-center">
         <h2 class="titulo-secao">Marcas Parceiras</h2>

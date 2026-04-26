@@ -4,7 +4,6 @@ require 'includes/header.php';
 require 'data/aulas.php';
 ?>
 
-<!-- Hero -->
 <section class="hero d-flex align-items-center" style="background-image: url('assets/img/profhelo/helo_01.jpeg');">
     <div class="hero-overlay"></div>
     <div class="container hero-conteudo">
@@ -12,9 +11,9 @@ require 'data/aulas.php';
             <p class="hero-subtitulo">Ballet &amp; Jazz &mdash; Campo Mourao, PR</p>
             <h1 class="hero-titulo">Prof. Helo</h1>
             <p class="hero-texto">
-                Heloísa Periçaro &mdash; Bailarina Profissional e Professora apaixonada na dança com propósito.
-                Uma ferramenta de desenvolvimento motor, cognitivo e emocional, respeitando o tempo, individualidade e a forma única de cada um de existir e se expressar.
-                a individualidade e a forma única de cada um de existir e se expressar.
+            Heloísa Periçaro &mdash; Bailarina Profissional e Professora apaixonada na dança com propósito.
+            Uma ferramenta de desenvolvimento motor, cognitivo e emocional, respeitando o tempo,
+            a individualidade e a forma única de cada um de existir e se expressar.
             </p>
             <div class="d-flex flex-wrap gap-3 mt-4">
                 <a href="aulas.php" class="btn-rosa">Conheca as Aulas</a>
@@ -26,7 +25,6 @@ require 'data/aulas.php';
     </div>
 </section>
 
-<!-- Apresentacao rapida -->
 <section class="py-5 bg-white">
     <div class="container text-center">
         <h2 class="titulo-secao">Bem-vinda</h2>
@@ -38,7 +36,6 @@ require 'data/aulas.php';
     </div>
 </section>
 
-<!-- Cards de aulas -->
 <section class="py-5" style="background-color: var(--rosa-claro);">
     <div class="container">
         <div class="text-center mb-5">
@@ -63,7 +60,6 @@ require 'data/aulas.php';
     </div>
 </section>
 
-<!-- Parceiro PasClassique -->
 <section class="py-5 bg-white">
     <div class="container">
         <div class="caixa-parceiro">
@@ -88,7 +84,6 @@ require 'data/aulas.php';
     </div>
 </section>
 
-<!-- CTA final -->
 <section class="py-5 secao-cta text-white text-center">
     <div class="container">
         <h2 class="mb-3">Pronta para comecar?</h2>

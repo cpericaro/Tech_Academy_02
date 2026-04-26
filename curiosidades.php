@@ -28,7 +28,6 @@ require 'data/curiosidades.php';
     </div>
 </section>
 
-<!-- Imagem decorativa -->
 <section class="py-5" style="background-color: var(--rosa-claro);">
     <div class="container">
         <div class="row g-3 justify-content-center">

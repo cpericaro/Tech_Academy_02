@@ -3,4 +3,5 @@
 .DS_Store
 Thumbs.db
 images/
-context.md
+.claude/
+*.pdf
